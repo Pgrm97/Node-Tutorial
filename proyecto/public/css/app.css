@@ -1,0 +1,51 @@
+ .big-top-space{
+ 	margin-top: 200px;
+ }
+
+ .center-it{
+ 	padding-right: 200px;
+ 	padding-left: 200px;
+ }
+
+ .large-padding{
+ 	padding: 10px 15px;
+ }
+
+ .black{
+ 	background-color: #222;
+ }
+
+ .white-text{
+ 	color: white;
+ }
+
+ nav{
+ 	text-align: right;
+ }
+
+ nav li{
+ 	font-size: 1.2em
+ }
+
+ nav li a{
+ 	color: white;
+ }
+
+ form.link input[type="submit"]{
+ 	background-color: transparent;
+ 	border: none;
+ }
+
+ img{
+ 	max-width: 30%;
+ 	max-height: 30%
+ }
+
+ .img-container{
+ 	width: 700px;
+ 	margin: 0 auto;
+ }
+
+  .img-container h1{
+ 	border-bottom: 1px solid
+ }

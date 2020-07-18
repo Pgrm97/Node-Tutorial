@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Pgrm97/Node-Tutorial#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jade": "^1.11.0"
   }
 }

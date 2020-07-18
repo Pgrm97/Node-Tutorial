@@ -1,0 +1,15 @@
+extends ../../layout.jade
+block contenido
+	h1 Upload an image
+	div(class="center-block text-center big-top-space center-it")
+		form(action="/app/imagenes" method="POST" enctype="multipart/form-data")
+			div(class="form-group")
+				label(for="title") Titulo
+				input(type="text", name="title", placeholder="Titulo de la imagen",id="title", class="form-control")
+			div
+				label(for="file") Imagen
+				input(type="file", name="file",id="file", class="form-control")
+			div(class="center-it text-right")
+				a(href="/signup") Upload
+			div
+				input(type="submit" value="Guardar" class="btn btn-info")
